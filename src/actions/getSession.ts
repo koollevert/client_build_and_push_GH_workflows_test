@@ -1,4 +1,4 @@
-
+'use server'
 
 export async function getCurrentUser(req?: any) {
   const baseURL='https://ingress-nginx-controller.ingress-nginx.svc.cluster.local'
