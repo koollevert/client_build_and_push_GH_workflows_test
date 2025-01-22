@@ -1,7 +1,7 @@
 
 
 export async function getCurrentUser(req?: any) {
-  const baseURL='http://auth-srv'
+  const baseURL='https://ingress-nginx-controller.ingress-nginx.svc.cluster.local'
   const url = `${baseURL}/api/auth/session`
   const options: RequestInit = {
     method: 'GET',
