@@ -1,7 +1,7 @@
 
 
 export async function getCurrentUser(req?: any) {
-  const baseURL='/'
+  const baseURL='http://auth-srv'
   const url = `${baseURL}/api/auth/session`
   const options: RequestInit = {
     method: 'GET',
