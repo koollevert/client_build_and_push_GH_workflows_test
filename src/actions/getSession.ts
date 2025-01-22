@@ -1,4 +1,4 @@
-'use server';
+
 
 export async function getCurrentUser(req?: any) {
   const url = 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local/api/auth/session';
